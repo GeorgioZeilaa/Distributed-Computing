@@ -15,7 +15,7 @@
             ?>
             <h2>Add Form</h2>
             <form action="submission.php" method="post">
-            <input type="submit">
+            <input type="submits">
             </form>
     </body>
 </html>
