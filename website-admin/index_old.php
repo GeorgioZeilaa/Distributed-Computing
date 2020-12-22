@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h1>Successfully Added</h1>
-        <?php
+        <h1>Admin:</h1>
+            <?php
                 $json = file_get_contents('http://product-api-service-admin');
                 $temp = json_decode($json, true);
                 echo "Item Name". "Quantity". "Price";
@@ -12,9 +12,10 @@
                     echo $product["item"] . " " . $product["qty"] . "  " . $product["price"];
                     echo "</p>";
                 }
-        ?>
-        <form action="index.php" method="post">
+            ?>
+            <h2>Add Form</h2>
+            <form action="submission.php" method="post">
             <input type="submit">
-        </form>
+            </form>
     </body>
 </html>

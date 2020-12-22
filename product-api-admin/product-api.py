@@ -19,7 +19,6 @@ class Product(Resource):
         results = [{"item":name, 'qty':qty,'price':price} for (name,qty,price) in cursor]
         return {'products':results}
         
-    def set(self):
 api.add_resource(Product, '/')
 
 if __name__=='__main__':
