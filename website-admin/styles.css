@@ -1,0 +1,30 @@
+body {
+    background-color: powderblue;
+  }
+.main {
+    background: #2d92b9;
+    width: 550px;
+  }
+.mainheader {
+    background: #381abc;
+    color: white;
+    width: 550px;
+    height: 150px;
+  }
+.title {
+    padding: 25px 50px 75px 100px;
+    text-align: center;
+    font-size: 20px;
+  }
+label {
+    display: inline-block;
+    clear: left;
+    width: 100px;
+    text-align: right;
+  }
+.button {
+    padding: 5px 0px 10px 220px;
+  }
+.centerall {
+    padding: 5px 0px 10px 150px;
+  }
