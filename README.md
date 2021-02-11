@@ -11,6 +11,7 @@
 - 3 web servers that are identical. <br>
 - HAProxy server that uses the roundrobin balancing algorithm. <br>
 - Flask API running on Python to get and post data. <br>
+- MySQL database. <br>
 </p>
 
 <h2> How to access website? </h2>
